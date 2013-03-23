@@ -17,5 +17,5 @@
 
 ## Sensors
 PRODUCT_COPY_FILES += \
-    vendor/samsung/trebon/proprietary/lib/hw/sensors.msm7x27a.so:system/lib/hw/sensors.msm7x27a.so \
+    vendor/samsung/trebon/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/samsung/trebon/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so
