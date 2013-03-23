@@ -12,10 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-#   Samsung proprietary binaries and libraries for jena
+#   Proprietary NFC libs for jena
 #
 
 ## Sensors
 PRODUCT_COPY_FILES += \
-    vendor/samsung/jena/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-    vendor/samsung/jena/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so
+    vendor/samsung/jena/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
+    vendor/samsung/jena/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
