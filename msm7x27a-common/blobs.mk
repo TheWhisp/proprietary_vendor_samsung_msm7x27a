@@ -17,11 +17,10 @@
 
 ## RIL (radio interface relay)
 PRODUCT_COPY_FILES += \
+    vendor/samsung/msm7x27a-common/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/msm7x27a-common/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/samsung/msm7x27a-common/proprietary/bin/qmiproxy:system/bin/qmiproxy \
-    vendor/samsung/msm7x27a-common/proprietary/bin/netmgrd:system/bin/netmgrd
+    vendor/samsung/msm7x27a-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so
 
 ## Camera
 PRODUCT_COPY_FILES += \
@@ -82,8 +81,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/msm7x27a-common/proprietary/bin/abtfilt:system/bin/abtfilt \
-    vendor/samsung/msm7x27a-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/samsung/msm7x27a-common/proprietary/bin/hostapd:system/bin/hostapd
+    vendor/samsung/msm7x27a-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init
 
 ## Other libs
 PRODUCT_COPY_FILES += \
@@ -96,31 +94,31 @@ PRODUCT_COPY_FILES += \
 
 ## OMX
 PRODUCT_COPY_FILES += \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxAacDec.so:system/lib/libOmxAacDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxEvrcHwDec.so:system/lib/libOmxEvrcHwDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxIttiamVdec.so:system/lib/libOmxIttiamVdec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxOn2Dec.so:system/lib/libOmxOn2Dec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxrv9Dec.so:system/lib/libOmxrv9Dec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxVp8Dec.so:system/lib/libOmxVp8Dec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/omx/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxEvrcHwDec.so:system/lib/libOmxEvrcHwDec.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxIttiamVdec.so:system/lib/libOmxIttiamVdec.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxOn2Dec.so:system/lib/libOmxOn2Dec.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxrv9Dec.so:system/lib/libOmxrv9Dec.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxVp8Dec.so:system/lib/libOmxVp8Dec.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so
 
 ## LPM (media)
 PRODUCT_COPY_FILES += \
