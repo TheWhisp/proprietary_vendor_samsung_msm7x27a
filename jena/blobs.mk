@@ -17,7 +17,7 @@
 
 ## Cameradata
 PRODUCT_COPY_FILES += \
-	vendor/samsung/msm7x27a-common/proprietary/cameradata/datapattern_420sp_jena.yuv:system/cameradata/datapattern_420sp_jena.yuv
+	vendor/samsung/jena/proprietary/cameradata/datapattern_420sp_jena.yuv:system/cameradata/datapattern_420sp_jena.yuv
 
 ## Sensors
 PRODUCT_COPY_FILES += \
