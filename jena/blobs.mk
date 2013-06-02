@@ -1,4 +1,4 @@
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2013 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,6 +14,10 @@
 #
 #   Samsung proprietary binaries and libraries for jena
 #
+
+## Cameradata
+PRODUCT_COPY_FILES += \
+	vendor/samsung/msm7x27a-common/proprietary/cameradata/datapattern_420sp_jena.yuv:system/cameradata/datapattern_420sp_jena.yuv
 
 ## Sensors
 PRODUCT_COPY_FILES += \
