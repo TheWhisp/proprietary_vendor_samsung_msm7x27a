@@ -1,4 +1,4 @@
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2013 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,7 +15,16 @@
 #   Samsung proprietary binaries and libraries for jena
 #
 
+## Cameradata
+PRODUCT_COPY_FILES += \
+	vendor/samsung/jena/proprietary/cameradata/datapattern_420sp_jena.yuv:system/cameradata/datapattern_420sp_jena.yuv
+
 ## Sensors
 PRODUCT_COPY_FILES += \
     vendor/samsung/jena/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/samsung/jena/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so
+
+## Camera
+PRODUCT_COPY_FILES += \
+    vendor/samsung/jena/proprietary/lib/libcamera.so:system/lib/libcamera.so \
+    vendor/samsung/jena/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so
