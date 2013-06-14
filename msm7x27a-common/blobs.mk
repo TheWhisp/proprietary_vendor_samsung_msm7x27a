@@ -84,7 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/msm7x27a-common/proprietary/bin/abtfilt:system/bin/abtfilt \
     vendor/samsung/msm7x27a-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-	vendor/samsung/msm7x27a-common/proprietary/bin/wmiconfig:system/bin/wmiconfig
+	vendor/samsung/msm7x27a-common/proprietary/bin/wmiconfig:system/bin/wmiconfig \
 	vendor/samsung/msm7x27a-common/proprietary/bin/hostapd:system/bin/hostapd \
 	vendor/samsung/msm7x27a-common/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
 	vendor/samsung/msm7x27a-common/proprietary/bin/hostapd_wps:system/bin/hostapd_wps
