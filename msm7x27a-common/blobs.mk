@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
 
 ## Camera
 PRODUCT_COPY_FILES += \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libActionShot.so:system/lib/libActionShot.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
@@ -33,6 +34,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/lib/libPlusMe.so:system/lib/libPlusMe.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libseccamera.so:system/lib/libseccamera.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so
+
+## FM
+PRODUCT_COPY_FILES += \
+    vendor/samsung/msm7x27a-common/proprietary/bin/fmconfig:system/bin/fmconfig \
+    vendor/samsung/msm7x27a-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
 
 ## Cameradata
 PRODUCT_COPY_FILES += \
@@ -85,9 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/bin/abtfilt:system/bin/abtfilt \
     vendor/samsung/msm7x27a-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/samsung/msm7x27a-common/proprietary/bin/wmiconfig:system/bin/wmiconfig \
-	vendor/samsung/msm7x27a-common/proprietary/bin/hostapd:system/bin/hostapd \
-	vendor/samsung/msm7x27a-common/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
-	vendor/samsung/msm7x27a-common/proprietary/bin/hostapd_wps:system/bin/hostapd_wps
+	vendor/samsung/msm7x27a-common/proprietary/bin/hostapd:system/bin/hostapd
 
 ## Other libs
 PRODUCT_COPY_FILES += \

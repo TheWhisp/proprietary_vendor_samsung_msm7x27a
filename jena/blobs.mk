@@ -26,5 +26,4 @@ PRODUCT_COPY_FILES += \
 
 ## Camera
 PRODUCT_COPY_FILES += \
-    vendor/samsung/jena/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/samsung/jena/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so
