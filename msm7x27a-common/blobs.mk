@@ -42,7 +42,7 @@ PRODUCT_COPY_FILES += \
 
 ## Cameradata
 PRODUCT_COPY_FILES += \
-	vendor/samsung/msm7x27a-common/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
+    vendor/samsung/msm7x27a-common/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/msm7x27a-common/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv
 
 ## Media
@@ -55,7 +55,7 @@ PRODUCT_COPY_FILES += \
 
 ## Atheros AR6003 firmware and module
 PRODUCT_COPY_FILES += \
-	vendor/samsung/msm7x27a-common/proprietary/wifi/ar6000.ko:system/wifi/ar6000.ko \
+    vendor/samsung/msm7x27a-common/proprietary/wifi/ar6000.ko:system/wifi/ar6000.ko \
     vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin:system/wifi/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin \
     vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/athwlan.bin:system/wifi/ath6k/AR6003/hw2.1.1/athwlan.bin \
     vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/athwlan_mobile.bin:system/wifi/ath6k/AR6003/hw2.1.1/athwlan_mobile.bin \
@@ -90,8 +90,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/msm7x27a-common/proprietary/bin/abtfilt:system/bin/abtfilt \
     vendor/samsung/msm7x27a-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-	vendor/samsung/msm7x27a-common/proprietary/bin/wmiconfig:system/bin/wmiconfig \
-	vendor/samsung/msm7x27a-common/proprietary/bin/hostapd:system/bin/hostapd
+    vendor/samsung/msm7x27a-common/proprietary/bin/wmiconfig:system/bin/wmiconfig \
+    vendor/samsung/msm7x27a-common/proprietary/bin/hostapd:system/bin/hostapd
 
 ## Other libs
 PRODUCT_COPY_FILES += \
@@ -104,7 +104,7 @@ PRODUCT_COPY_FILES += \
 
 ## OMX
 PRODUCT_COPY_FILES += \
-	vendor/samsung/msm7x27a-common/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \

@@ -17,7 +17,7 @@
 
 ## Cameradata
 PRODUCT_COPY_FILES += \
-	vendor/samsung/jena/proprietary/cameradata/datapattern_420sp_jena.yuv:system/cameradata/datapattern_420sp_jena.yuv
+    vendor/samsung/jena/proprietary/cameradata/datapattern_420sp_jena.yuv:system/cameradata/datapattern_420sp_jena.yuv
 
 ## Sensors
 PRODUCT_COPY_FILES += \

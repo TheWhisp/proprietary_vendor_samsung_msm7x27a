@@ -22,5 +22,4 @@ PRODUCT_COPY_FILES += \
 
 ## Camera
 PRODUCT_COPY_FILES += \
-    vendor/samsung/trebon/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/samsung/trebon/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so
