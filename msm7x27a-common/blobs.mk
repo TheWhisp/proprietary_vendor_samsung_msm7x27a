@@ -38,7 +38,11 @@ PRODUCT_COPY_FILES += \
 ## FM
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/samsung/msm7x27a-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
+    vendor/samsung/msm7x27a-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libqmi.so:system/lib/libqmi.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libidl.so:system/lib/libidl.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so
 
 ## Cameradata
 PRODUCT_COPY_FILES += \
