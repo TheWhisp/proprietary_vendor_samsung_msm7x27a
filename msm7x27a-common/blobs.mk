@@ -61,18 +61,12 @@ PRODUCT_COPY_FILES += \
 ## Atheros firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/athwlan.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/athwlan.bin \
-    vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/bdata.SD31.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.SD31.bin \
-    vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/bdata.SD32.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.SD32.bin \
-    vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/bdata.WB31.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.WB31.bin \
+    vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/bdata.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.bin \
     vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/data.patch.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/data.patch.bin \
     vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/endpointping.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/endpointping.bin \
     vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/otp.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/otp.bin \
     vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/fw-2.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-2.bin \
     vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/fw-3.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-3.bin
-
-## Hack to load board file
-PRODUCT_COPY_FILES += \
-    vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/bdata.SD32.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.bin
 
 ## Adreno 200 GPU
 PRODUCT_COPY_FILES += \
