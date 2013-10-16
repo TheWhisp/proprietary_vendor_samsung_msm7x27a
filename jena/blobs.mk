@@ -12,12 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-#   Samsung proprietary binaries and libraries for jena
-#
-
-## Cameradata
-PRODUCT_COPY_FILES += \
-    vendor/samsung/jena/proprietary/cameradata/datapattern_420sp_jena.yuv:system/cameradata/datapattern_420sp_jena.yuv
 
 ## Sensors
 PRODUCT_COPY_FILES += \
