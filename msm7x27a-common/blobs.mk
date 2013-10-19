@@ -54,8 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/endpointping.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/endpointping.bin \
     vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/otp.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/otp.bin \
     vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/fw-2.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-2.bin \
-    vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/fw-3.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-3.bin \
-	vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/softmac:system/etc/firmware/ath6k/AR6003/hw2.1.1/softmac
+    vendor/samsung/msm7x27a-common/proprietary/wifi/ath6k/AR6003/hw2.1.1/fw-3.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-3.bin
 
 ## Adreno 200 GPU
 PRODUCT_COPY_FILES += \
@@ -75,7 +74,8 @@ PRODUCT_COPY_FILES += \
 
 ## Binaries
 PRODUCT_COPY_FILES += \
-    vendor/samsung/msm7x27a-common/proprietary/bin/rmt_storage:system/bin/rmt_storage
+    vendor/samsung/msm7x27a-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/samsung/msm7x27a-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init
 
 ## Other libs
 PRODUCT_COPY_FILES += \
