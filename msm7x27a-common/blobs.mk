@@ -13,6 +13,10 @@
 # limitations under the License.
 #
 
+## Prebuilt libraries that are needed to build open-source libraries
+PRODUCT_COPY_FILES += \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libcamera.so:obj/lib/libcamera.so
+
 ## RIL (Radio Interface Relay)
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/bin/rild:system/bin/rild \
