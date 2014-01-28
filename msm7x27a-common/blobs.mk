@@ -71,7 +71,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27a-common/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
-    vendor/samsung/msm7x27a-common/proprietary/lib/ibc2d2_z180.so:system/lib/ibc2d2_z180.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
     vendor/samsung/msm7x27a-common/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so
 
