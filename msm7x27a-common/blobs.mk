@@ -15,7 +15,7 @@
 
 ## Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so
+    vendor/samsung/msm7x27a-common/proprietary/lib/libcamera.so:obj/lib/libcamera.so
 
 ## RIL (Radio Interface Relay)
 PRODUCT_COPY_FILES += \
@@ -26,7 +26,12 @@ PRODUCT_COPY_FILES += \
 
 ## Camera
 PRODUCT_COPY_FILES += \
-    vendor/samsung/msm7x27a-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so
+    vendor/samsung/msm7x27a-common/proprietary/lib/libcamera.so:system/lib/libcamera.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libcaps.so:system/lib/libcaps.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libseccamera.so:system/lib/libseccamera.so \
+    vendor/samsung/msm7x27a-common/proprietary/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so
 
 ## FM
 PRODUCT_COPY_FILES += \
